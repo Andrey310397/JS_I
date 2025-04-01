@@ -1,15 +1,27 @@
-// while -> Enquanto
-/* let x = 5
+// Switch -> Casp
+function pedir() {
+    let valor = prompt("Digite um valor de 1 a 4: ")
 
-while (x < 10) {
-document.write("<br> O valor do x é: " + x)
+    switch (Number(valor)) {
+        case 1:
+            alert("Você escolheu 1 = suco")
+            break
 
-Aumentando o valor do X
-x++
-} */
+        case 2:
+            alert("Você escolheu 2 = Água gelada")
+            break
 
-// for -> para
-// para(valor; condição;ação){}
-/*for (a = 0; a < 10; a++) {
-    document.write("<br> O valor do a é: " + a)
-}*/
+        case 3:
+            alert("Você escolheu 3 = Sorvete")
+            break
+
+        case 4:
+            alert("Você chamou o garçom")
+            break
+
+        default:
+            alert("Escolha uma opção entre 1 a 4")
+            break
+    }
+
+}
