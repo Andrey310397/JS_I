@@ -25,3 +25,8 @@ function pedir() {
     }
 
 }
+
+// Condicionais
+var numero = 10
+
+numero === 10 ? console.log("Numero é igual a 10") : console.log('Numero não tem o valor 10')
