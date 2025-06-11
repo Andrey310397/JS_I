@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,19 +9,18 @@
 
 <body>
 
-    <h1>Escolha um item</h1>
-    <ul>
-        <li>1 - Suco</li>
-        <li>2 - Água gelada</li>
-        <li>3 - Sorvete</li>
-        <li>4 - Chamar o garçom</li>
-    </ul>
+    <form onsubmit="return calcular(event)">
+        <label>Digite seu peso:</label><br>
+        <input type="text" name="peso" id="peso" placeholder="Exemplo 65"><br><br>
 
-    <button onclick="pedir()">Pedir</button>
+        <label>Digite sua altura:</label><br>
+        <input type="text" name="altura" id="altura" placeholder="Exemplo 1.90"><br><br>
 
-    <!-- JS -->
+        <input type="submit" value="Calcular IMC">
+    </form>
+
+    <div id="resultado"></div>
     <script src="script.js"></script>
-
 </body>
 
 </html>
