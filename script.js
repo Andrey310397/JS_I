@@ -1,18 +1,9 @@
-// Criando objetos
+// Template strings
 
-// let pessoa = {
-//     nome: "Andrey",
-//     idade: 28,
-//     altura: 1.81,
-//     cargo: 'Analista de segurança'
-// }; // Objeto -> O que está dentro das chaves são as propriedades
+let nome = 'Matheus';
+let sobrenome = 'Fraga';
+let idade = 26;
 
-// let carro = {
-//     nome: 'Golf',
-//     cor: 'Branco',
-//     potencia: '140cv'
-// };
+let mensagem = `Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos de idade`;
 
-let usuarios = [
-    { nome: "Andrey", cargo: "Programador", status: "Ativo" }
-]
+console.log(mensagem);
