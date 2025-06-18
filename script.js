@@ -1,14 +1,18 @@
-// setInterval -> Basicamente executa de tempos em tempos, infinitamente. A cada 1000, é equivalente a 1 segundo.
-// Para pará-lo, basta atribuir a uma variável e atribuir ao comando clearInterval(nomeDaVariável).
+// Criando objetos
 
-function acao() {
-    document.writeln('Executando... <br />');
-}
-// var timer = setInterval(() => {
-//     document.writeln('Executando!!! <br />');
-// }, 1000);
+// let pessoa = {
+//     nome: "Andrey",
+//     idade: 28,
+//     altura: 1.81,
+//     cargo: 'Analista de segurança'
+// }; // Objeto -> O que está dentro das chaves são as propriedades
 
+// let carro = {
+//     nome: 'Golf',
+//     cor: 'Branco',
+//     potencia: '140cv'
+// };
 
-// setTimeOut -> Executa apenas uma vez, aquilo que for passado.
-
-setTimeout(acao, 3000);
+let usuarios = [
+    { nome: "Andrey", cargo: "Programador", status: "Ativo" }
+]
